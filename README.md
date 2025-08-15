@@ -1,7 +1,8 @@
 # Alva Clean CRM System Prototype (Microservices arhitecture)
 
 Splitting a monolith into microservices with best practices for development.
-Monolith Project: https://github.com/ArturDavidenko/CRMAlvaClean
+
+Monolith Main Project: https://github.com/ArturDavidenko/CRMAlvaClean
 
 # Development plan:
 
