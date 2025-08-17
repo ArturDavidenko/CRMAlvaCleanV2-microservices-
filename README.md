@@ -39,8 +39,8 @@ This inspired me to create a **system as close as possible to an Enterprise appr
 ---
 
 ## 🔗 Links
-- [Jira Board](#) — https://alvaclean.atlassian.net/jira/software/projects/ALC/boards/1?atlOrigin=eyJpIjoiMDg2YzI5ZGRiMDg4NDJjNjgxOWRlZDZhYTQ2NTU4MzIiLCJwIjoiaiJ9  
-- [Confluence Documentation](#) — soon   
+- [Jira Board](https://alvaclean.atlassian.net/jira/software/projects/ALC/boards/1?atlOrigin=eyJpIjoiODQzZWZjYjBkNDg1NDIyY2FlZmMyMDIzYTMxZmM5YTIiLCJwIjoiaiJ9) — task and Story/EPIC management  
+- [Confluence Documentation]() — project documentation. (Link soon)   
 
 ---
 
