@@ -49,6 +49,6 @@ This inspired me to create a **system as close as possible to an Enterprise appr
 AlvaCleanCRM is more than code.  
 It is a demonstration of **architectural thinking, systematic approach, and real enterprise practices**, implemented within a single solo project.
 
-## Contscts
+## Contacts
 If you have any questions, feel free to reach out:
 📧 artursdavidenko@gmail.com
