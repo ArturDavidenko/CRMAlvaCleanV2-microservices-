@@ -10,17 +10,17 @@ The goal of the project is to show that I can **think like an architect, not jus
 The project is being developed **for a real company**, where the number of employees and processes is limited, but the system is designed with **possible high load** and future scaling in mind.  
 
 This serves as:  
-- a training ground to hone development skills;  
-- a demonstration of architectural approach and enterprise practices;  
-- a real working project that can be expanded to meet business needs.  
+- a training ground to hone development skills 
+- a demonstration of architectural approach and enterprise practices
+- a real working project that can be expanded to meet business needs  
 
 ---
 
 ## 🏗 Background
-During my internship at **SEB (S&B Bank)**, I had the opportunity to observe the entire process of a large enterprise project:  
-- from task management in **Jira**;  
-- to maintaining documentation in **Confluence**;  
-- to configuring **CI/CD pipelines**, Kubernetes, and various environments: `a-environment`, `development-environment`, and in the future — `live-environment`.
+During my internship at **SEB (SEB Bank)**, I had the opportunity to observe the entire process of a large enterprise project:  
+- from task management in **Jira**  
+- to maintaining documentation in **Confluence**  
+- to configuring **CI/CD pipelines**, Kubernetes, and various environments: `a-environment`, `development-environment`, and in the future — `live-environment`
 
 This inspired me to create a **system as close as possible to an Enterprise approach**, where every element reflects real industry practices.
 
