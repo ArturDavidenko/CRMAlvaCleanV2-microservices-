@@ -30,7 +30,7 @@ This inspired me to create a **system as close as possible to an Enterprise appr
 - **Frontend:** Angular, TypeScript  
 - **Backend:** .NET, ASP.NET Core, Clean Architecture  
 - **Databases:** MongoDB, PostgreSQL  
-- **DevOps & Infrastructure:** Docker, CI/CD, Kubernetes, Elasticsearch, RabbitMQ  
+- **DevOps & Infrastructure:** Docker, CI/CD, Kubernetes, Elasticsearch, RabbitMQ, GraphQL 
 - **Project Management:** Jira, Confluence  
 - **Version Control:** Git, GitHub  
 
