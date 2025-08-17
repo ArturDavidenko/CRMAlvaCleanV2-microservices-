@@ -39,8 +39,8 @@ This inspired me to create a **system as close as possible to an Enterprise appr
 ---
 
 ## 🔗 Links
-- [Jira Board](https://alvaclean.atlassian.net/jira/software/projects/ALC/boards/1?atlOrigin=eyJpIjoiODQzZWZjYjBkNDg1NDIyY2FlZmMyMDIzYTMxZmM5YTIiLCJwIjoiaiJ9) — task and Story/EPIC management. _Note: the board is private due to Jira Free plan limitations.  
-  If you would like to view it as a guest (read-only), feel free to contact me and I will add you to the project._
+- [Jira Board](https://alvaclean.atlassian.net/jira/software/projects/ALC/boards/1?atlOrigin=eyJpIjoiODQzZWZjYjBkNDg1NDIyY2FlZmMyMDIzYTMxZmM5YTIiLCJwIjoiaiJ9) — task and Story/EPIC management.
+- _Note: for security reasons the board is accessible **only by invitation**. If you would like to view it, please contact me and I will add you to the project._
 - [Confluence Documentation]() — project documentation. (Link soon)
 - [Monolith MVP Project](https://github.com/ArturDavidenko/CRMAlvaClean) - a working example of the main project
 
