@@ -1,168 +1,49 @@
-# Alva Clean CRM System Prototype (Microservices arhitecture)
+# AlvaCleanCRM 🏢✨
+*CRM prototype system with microservice architecture*
 
-Splitting a monolith into microservices with best practices for development.
+---
 
-Monolith Main Project: https://github.com/ArturDavidenko/CRMAlvaClean
+## 🎯 Main Goal of the Project
+AlvaCleanCRM is created not just as a working application, but as a **platform to demonstrate engineering and architectural thinking**.  
+The goal of the project is to show that I can **think like an architect, not just write code**.  
 
-# Development plan:
+The project is being developed **for a real company**, where the number of employees and processes is limited, but the system is designed with **possible high load** and future scaling in mind.  
 
-### Migration from Monolith to Microservices
+This serves as:  
+- a training ground to hone development skills;  
+- a demonstration of architectural approach and enterprise practices;  
+- a real working project that can be expanded to meet business needs.  
 
-# 1. Analysis & Preparation
+---
 
- Analyze the current monolithic codebase: API endpoints, modules, dependencies.
+## 🏗 Background
+During my internship at **SEB (S&B Bank)**, I had the opportunity to observe the entire process of a large enterprise project:  
+- from task management in **Jira**;  
+- to maintaining documentation in **Confluence**;  
+- to configuring **CI/CD pipelines**, Kubernetes, and various environments: `a-environment`, `development-environment`, and in the future — `live-environment`.
 
- Define clear domain boundaries: Auth, Employee, Customer, Order.
+This inspired me to create a **system as close as possible to an Enterprise approach**, where every element reflects real industry practices.
 
- Identify common functionality to be extracted into shared libraries (models, DTOs, utilities).
+---
 
- Monorepo decision:
-- All microservices, frontend, and infrastructure configurations will be stored in a single repository.
+## 💻 Base Technology Stack
+- **Frontend:** Angular, TypeScript  
+- **Backend:** .NET, ASP.NET Core, Clean Architecture  
+- **Databases:** MongoDB, PostgreSQL  
+- **DevOps & Infrastructure:** Docker, CI/CD, Kubernetes, Elasticsearch, RabbitMQ  
+- **Project Management:** Jira, Confluence  
+- **Version Control:** Git, GitHub  
 
-# 2. Architectural Design
+> The technology stack will continue to evolve and be refined as the project develops. This is also part of the development and architectural planning.
 
- Design Clean Architecture for each service:
+---
 
-  Auth Service (JWT, Refresh Tokens, Role-based access control).
-  
-  - Employee Service.
-  
-  - Customer Service.
-  
-  - Order Service.
-  
-  - GraphQL Gateway (facade).
-  
-   Define inter-service communication patterns using RabbitMQ.
-  
-   Plan database abstraction to allow multiple database support (primary: MongoDB).
-  
-   Design logging and monitoring with ELK Stack (ElasticSearch, Logstash/Filebeat, Kibana).
-  
-   Define Kubernetes deployment strategy (Helm charts per service).
+## 🔗 Links
+- [Jira Board](#) — https://alvaclean.atlassian.net/jira/software/projects/ALC/boards/1?atlOrigin=eyJpIjoiMDg2YzI5ZGRiMDg4NDJjNjgxOWRlZDZhYTQ2NTU4MzIiLCJwIjoiaiJ9  
+- [Confluence Documentation](#) — soon   
 
-# 3. Infrastructure & CI/CD
+---
 
- Configure monorepo structure and tooling.
-
- Create Dockerfile for each microservice.
-
- Prepare docker-compose for local development.
-
- Create Helm charts for Kubernetes deployments.
-
- Set up GitHub Actions CI/CD pipeline:
-
-  - Code linting & formatting checks.
-  
-  - Build & push Docker images to registry.
-  
-  - Deploy to local Kubernetes (minikube/kind).
-  
-  - Deploy to staging/production environments.
-
-
-# 4. Microservices Implementation
-
-Auth Service
-
- - User registration & authentication.
-
- - JWT & refresh token management.
-
- - Role-based access control.
-
-Employee Service
-
- - CRUD operations for employees.
-
- - Integration with Auth Service for authentication.
-
-Customer Service
-
- - CRUD operations for customers.
-
- - Search & filtering features.
-
-Order Service
-
- - Order creation & management.
-
- - RabbitMQ integration with Employee/Customer Service.
-
-GraphQL Gateway
-
- - Aggregate APIs from all services.
-
- - Optimize queries and responses.
-
-
-# 5. Frontend (Angular + TypeScript)
-
- Initialize Angular workspace.
-
- Create modules for each domain service.
-
- Implement authentication and routing.
-
- Integrate with GraphQL Gateway.
-
- Add CI/CD pipeline for frontend.
-
-# 6. RabbitMQ & ELK Integration
-
- Configure RabbitMQ for asynchronous inter-service communication.
-
- Implement logging to ElasticSearch.
-
- Configure Kibana dashboards.
-
- Set up Filebeat/Logstash for log collection.
-
-
-# 7. Load Testing
-
- Choose a tool (Locust, JMeter, k6).
-
- Simulate realistic load (~10,000 users/minute).
-
- Optimize microservices based on test results.
-
-
-# 8. Deployment
-
- Local deployment to Kubernetes (minikube/kind).
-
- Staging environment setup.
-
- Optional cloud deployment (AWS, GCP, Azure, or others).
-
-
-# 9. Documentation
-
- README for each microservice.
-
- API documentation (Swagger for REST, GraphQL schema).
-
- Local development setup guide.
-
- CI/CD pipelines documentation.
-
-
-# 10. Maintenance & Monitoring
-
- Set up service metrics monitoring (Prometheus + Grafana).
-
- Configure alerting for critical issues.
-
- Continuous refactoring & optimization.
-
-### Important note
-
-This plan is not final and may be updated or adjusted during development.
-Technologies mentioned in this document can also be slightly changed if better solutions are found during implementation.
-
-### Contact
-
-If you have any questions, feel free to reach out:
-📧 artursdavidenko@gmail.com
+## 📝 Conclusion
+AlvaCleanCRM is more than code.  
+It is a demonstration of **architectural thinking, systematic approach, and real enterprise practices**, implemented within a single solo project.
