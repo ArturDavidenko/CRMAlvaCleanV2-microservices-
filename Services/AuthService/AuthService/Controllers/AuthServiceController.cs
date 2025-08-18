@@ -22,6 +22,7 @@ namespace AuthService.Controllers
         {
             try
             {
+                //YOOOOOOOOOOOO JIRA INTEGRATION WOOOOOORK !!!!!!!!!
                 var jwtToken = await _authService.LoginEmployee(Model);
                 return Ok(new
                 {
