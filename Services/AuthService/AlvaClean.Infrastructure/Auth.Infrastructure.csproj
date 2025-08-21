@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AlvaClean.Application\AlvaClean.Application.csproj" />
-    <ProjectReference Include="..\AlvaClean.Domain\AlvaClean.Domain.csproj" />
+    <ProjectReference Include="..\AlvaClean.Application\Auth.Application.csproj" />
+    <ProjectReference Include="..\AlvaClean.Domain\Auth.Domain.csproj" />
   </ItemGroup>
 
 </Project>
