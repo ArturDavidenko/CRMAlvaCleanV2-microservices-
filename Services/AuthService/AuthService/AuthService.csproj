@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AlvaClean.Infrastructure\AlvaClean.Infrastructure.csproj" />
+    <ProjectReference Include="..\AlvaClean.Infrastructure\Auth.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
