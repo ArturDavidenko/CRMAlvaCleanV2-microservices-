@@ -1,0 +1,5 @@
+{"_id":{"$oid":"67ddf925e153d0c01f5571f3"},"CustomerType":"Physical person","ClientName":"Nikita Efremof","ContactPhone":"27029493","Orders":[{"$oid":"67e1f8c3a63dd807098aca21"},{"$oid":"67e1a63c4b7d49aa53c7a686"},{"$oid":"682f440e2e13f52ae84678ba"}]}
+{"_id":{"$oid":"67ddf943e153d0c01f5571f4"},"CustomerType":"Juridical person","ClientName":"Maxima","ContactPhone":"23123123","Orders":[{"$oid":"67e2f340e532385c42f722ad"},{"$oid":"67e1eb7f312d0f0aaa850297"},{"$oid":"67ddfa16e153d0c01f5571f7"},{"$oid":"67e2f367e532385c42f722ae"},{"$oid":"67e2f30fe532385c42f722ac"},{"$oid":"682f43ce2e13f52ae84678b9"}]}
+{"_id":{"$oid":"67ddf980e153d0c01f5571f5"},"CustomerType":"Physical person","ClientName":"Jekaterina Strojnova","ContactPhone":"22344125","Orders":[{"$oid":"67ddfa7ce153d0c01f5571f8"}]}
+{"_id":{"$oid":"67e1f9d4571ff0b41909fd99"},"CustomerType":"Physical person","ClientName":"Sveta Rafaelo","ContactPhone":"2702223","Orders":[{"$oid":"67e2ac5bb23422998ac74386"}]}
+{"_id":{"$oid":"682f44a02e13f52ae84678bb"},"CustomerType":"Juridical person","ClientName":"LBTU","ContactPhone":"27029494","Orders":[{"$oid":"6895000b4e745f1f0705498c"}]}

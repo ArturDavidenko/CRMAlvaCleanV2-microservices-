@@ -1,0 +1,4 @@
+mongoexport --uri="mongodb+srv://cuber:A20343907@cluster1.nhofb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1" \ --collection=customers \ --out=customers.json
+
+
+mongodb+srv://cuber:A20343907@cluster1.nhofb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
